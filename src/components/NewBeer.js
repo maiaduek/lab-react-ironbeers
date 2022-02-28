@@ -7,7 +7,6 @@ function NewBeer(props) {
 
   const create = e => {
     e.preventDefault();
-    // props.setAllBeers(props.allBeers.concat(newBeer))
       axios({
         method: 'post',
         url: 'https://ih-beers-api2.herokuapp.com/beers/new',
